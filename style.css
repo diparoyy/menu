@@ -1,0 +1,27 @@
+.menubar{
+	
+	width:960px;
+	height:38px;
+	
+}
+.menubar ul{
+list-style-type:none;
+}
+.menubar ul li{
+	float:left;
+	border-right:1px solid red;
+	border-bottom:3px solid orange;
+}
+.menubar ul li:last-child{
+	border-right:none;
+} 
+.menubar ul li a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	background-color:#000;
+	padding:10px 20px;
+}
+.menubar ul li a:hover{
+	background:orange;
+}
